@@ -348,11 +348,10 @@
   #endif
 #endif
 
-// @section temperature
-
 //===========================================================================
 //============================= Thermal Settings ============================
 //===========================================================================
+// @section temperature
 
 /**
  * --NORMAL IS 4.7kohm PULLUP!-- 1kohm pullup can be used on hotend sensor, using correct resistor and table
@@ -2247,12 +2246,6 @@
 // Ender-3 v2 OEM display. A DWIN display with Rotary Encoder.
 //
 #define DWIN_CREALITY_LCD
-
-//
-// MarlinUI for Creality's DWIN display (and others)
-//
-//#define DWIN_MARLINUI_PORTRAIT
-//#define DWIN_MARLINUI_LANDSCAPE
 
 //
 // ADS7843/XPT2046 ADC Touchscreen such as ILI9341 2.8
